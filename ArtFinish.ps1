@@ -11,13 +11,9 @@ Write-Host "$space│           Discord | @Sherm_R6       │" -ForegroundColor 
 Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $white
 
 Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $white
-Write-Host "$space│                  Here’s the hyperlink:
-
-[Twitter/X | Sherm_R6](https://x.com/Sherm_R6)                   │" -ForegroundColor $white
+Write-Host "$space│ [Twitter/X | Sherm_R6](https://x.com/Sherm_R6) │" -ForegroundColor $white
 Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $white
 
 Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $white
-Write-Host "$space│           Here’s the hyperlink:
-
-[YouTube | Sherm_R6](https://youtube.com/@Sherm_R6)       │" -ForegroundColor $white
+Write-Host "$space│ [YouTube | Sherm_R6](https://youtube.com/@Sherm_R6) │" -ForegroundColor $white
 Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $white
