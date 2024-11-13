@@ -1,5 +1,5 @@
-Write-Output "`n`n`nPlease visit the $(Format-Hyperlink -Uri "https://x.com/Sherm_R6" -Label "Twitter/X | Sherm_R6")!`n`n`n"
-Write-Output "`n`n`nPlease visit the $(Format-Hyperlink -Uri "https://youtube.com/@Sherm_R6" -Label "YouTube | Sherm_R6")!`n`n`n"
+Write-Output "`n`n`n $(Format-Hyperlink -Uri "https://x.com/Sherm_R6" -Label "Twitter/X | Sherm_R6")!`n`n`n"
+Write-Output "`n`n`n $(Format-Hyperlink -Uri "https://youtube.com/@Sherm_R6" -Label "YouTube | Sherm_R6")!`n`n`n"
 $green = "green"
 $white = "white"
 $space = " " * 12  # Increased the number of spaces for more right alignment
