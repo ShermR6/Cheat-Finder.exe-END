@@ -6,6 +6,6 @@ Write-Host "`n$space╭───────────────────
 Write-Host "$space│            SCAN COMPLETE            │" -ForegroundColor $red
 Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $red
 
-Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $magenta
-Write-Host "$space│Discord @Sherm_R6 | Twitter @Sherm_R6│" -ForegroundColor $magenta
-Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $magenta
+Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $darkblue
+Write-Host "$space│Discord @Sherm_R6 | Twitter @Sherm_R6│" -ForegroundColor $darkblue
+Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $darkblue
