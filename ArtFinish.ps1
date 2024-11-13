@@ -1,9 +1,5 @@
-$url = "https://www.x.com/Sherm_R6"
-$name = "Twitter/X | Sherm_R6"
-Write-Host "`e]8;;$url`e\$name`e]8;;`e\"
-$url = "https://www.youtube.com/@Sherm_R6"
-$name = "YouTube | Sherm_R6"
-Write-Host "`e]8;;$url`e\$name`e]8;;`e\"
+Write-Output "`n`n`nPlease visit the $(Format-Hyperlink -Uri "https://x.com/Sherm_R6" -Label "Twitter/X | Sherm_R6")!`n`n`n"
+Write-Output "`n`n`nPlease visit the $(Format-Hyperlink -Uri "https://youtube.com/@Sherm_R6" -Label "YouTube | Sherm_R6")!`n`n`n"
 $green = "green"
 $white = "white"
 $space = " " * 12  # Increased the number of spaces for more right alignment
