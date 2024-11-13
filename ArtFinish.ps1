@@ -1,3 +1,5 @@
+$url = "https://www.x.com/Sherm_R6"
+$url = "https://www.youtube.com/@Sherm_R6"
 $green = "green"
 $white = "white"
 $space = " " * 12  # Increased the number of spaces for more right alignment
