@@ -7,5 +7,13 @@ Write-Host "$space│            SCAN COMPLETE            │" -ForegroundColor 
 Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $green
 
 Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $white
-Write-Host "$space│Discord @Sherm_R6 | Twitter @Sherm_R6│" -ForegroundColor $white
+Write-Host "$space│           Discord | @Sherm_R6       │" -ForegroundColor $white
+Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $white
+
+Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $white
+Write-Host "$space│           Twitter/X | @Sherm_R6     │" -ForegroundColor $white
+Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $white
+
+Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $white
+Write-Host "$space│           Youtube | @Sherm_R6       │" -ForegroundColor $white
 Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $white
