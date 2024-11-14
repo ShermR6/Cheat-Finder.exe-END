@@ -31,7 +31,7 @@ Write-Host "`nStarting countdown to open links..."
 
 for ($i = 10; $i -gt 0; $i--) {
     Write-Host "Opening in $i seconds..." -ForegroundColor $yellow
-    Start-Sleep -Seconds 2
+    Start-Sleep -Seconds 1
     }
 
 Write-Host "`nOpening Social Media Links..."
