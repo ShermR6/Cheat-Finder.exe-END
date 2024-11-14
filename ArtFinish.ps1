@@ -30,8 +30,14 @@ Write-Host "$space╰───────────────────�
 $yellow = "Yellow"
 Write-Host "`nStarting countdown to open links..." -ForegroundColor $yellow
 
+for ($i = 60; $i -gt 10; $i -= 10) {
+    Write-Host "Opening in $i seconds..." -ForegroundColor Yellow
+    Start-Sleep -Seconds 10
+}
+
+# Switch to counting down by 1-second intervals
 for ($i = 10; $i -gt 0; $i--) {
-    Write-Host "Opening in $i seconds..." -ForegroundColor $yellow
+    Write-Host "Opening in $i seconds..." -ForegroundColor Yellow
     Start-Sleep -Seconds 1
 }
 
