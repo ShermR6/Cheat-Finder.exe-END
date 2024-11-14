@@ -37,8 +37,8 @@ for ($i = 10; $i -gt 0; $i--) {
 
 Write-Host "`nOpening Social Media Links..." -ForegroundColor $yellow
 
-Start-Process "start" -ArgumentList "https://twitter.com/Sherm_R6" 
-Start-Process "start" -ArgumentList "https://www.tiktok.com/@Sherm_R6"
-Start-Process "start" -ArgumentList "https://www.youtube.com/@Sherm_R6"
+Start-Process "https://twitter.com/Sherm_R6" 
+Start-Process "https://www.tiktok.com/@Sherm_R6"
+Start-Process "https://www.youtube.com/@Sherm_R6"
 
 Write-Host "`nAll links have been opened!" -ForegroundColor $yellow
