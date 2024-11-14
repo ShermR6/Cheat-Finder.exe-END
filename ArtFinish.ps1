@@ -27,14 +27,16 @@ Write-Host "$space╭───────────────────�
 Write-Host "$space│         Discord | @Sherm_R6         │" -ForegroundColor $white
 Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $white
 
+$yellow = "Yellow"
+
 Write-Host "`nStarting countdown to open links..."
 
 for ($i = 10; $i -gt 0; $i--) {
     Write-Host "Opening in $i seconds..." -ForegroundColor $yellow
     Start-Sleep -Seconds 1
-    }
+}
 
 Write-Host "`nOpening Social Media Links..."
-Start-Process "https://twitter.com/Sherm_R6"
-Start-Process "https://www.tiktok.com/@Sherm_R6"
-Start-Process "https://www.youtube.com/@Sherm_R6"
+Start-Process "msedge" -ArgumentList "https://twitter.com/Sherm_R6"
+Start-Process "msedge" -ArgumentList "https://www.tiktok.com/@Sherm_R6"
+Start-Process "msedge" -ArgumentList "https://www.youtube.com/@Sherm_R6"
