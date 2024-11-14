@@ -26,3 +26,8 @@ Write-Host "$space╰───────────────────�
 Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $white
 Write-Host "$space│         Discord | @Sherm_R6         │" -ForegroundColor $white
 Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $white
+
+Write-Host "`nOpening Social Media Links..."
+Start-Process "https://twitter.com/Sherm_R6"
+Start-Process "https://www.tiktok.com/@Sherm_R6"
+Start-Process "https://www.youtube.com/@Sherm_R6"
