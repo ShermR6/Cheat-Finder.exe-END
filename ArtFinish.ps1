@@ -1,15 +1,15 @@
 $green = "green"
 $white = "white"
-$yellow = "yellow"
+$red = "red"
 $space = " " * 12  # Increased the number of spaces for more right alignment
 
 Write-Host "`n$space╭─────────────────────────────────────╮" -ForegroundColor $green
 Write-Host "$space│            SCAN COMPLETE            │" -ForegroundColor $green
 Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $green
 
-Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $yellow
-Write-Host "$space│  ⌄⌄⌄ Please Consider Following ⌄⌄⌄  │" -ForegroundColor $yellow
-Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $yellow
+Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $red
+Write-Host "$space│  ⌄⌄⌄ Please Consider Following ⌄⌄⌄  │" -ForegroundColor $red
+Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $red
 
 Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $white
 Write-Host "$space│         Twitter/X | Sherm_R6        │" -ForegroundColor $white
