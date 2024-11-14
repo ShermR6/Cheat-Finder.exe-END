@@ -1,6 +1,6 @@
 $green = "green"
 $white = "white"
-$yellow = "yellw"
+$yellow = "yellow"
 $space = " " * 12  # Increased the number of spaces for more right alignment
 
 Write-Host "`n$space╭─────────────────────────────────────╮" -ForegroundColor $green
