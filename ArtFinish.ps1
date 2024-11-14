@@ -12,15 +12,15 @@ Write-Host "$space│  ⌄⌄⌄ Please Consider Following ⌄⌄⌄  │" -Fore
 Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $yellow
 
 Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $white
-Write-Host "$space│         Twitter/X | Sherm_R6        │" -ForegroundColor $white
+Write-Host "$space│        Twitter/X | @Sherm_R6        │" -ForegroundColor $white
 Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $white
 
 Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $white
-Write-Host "$space│          TikTok | Sherm_R6          │" -ForegroundColor $white
+Write-Host "$space│          TikTok | @Sherm_R6         │" -ForegroundColor $white
 Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $white
 
 Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $white
-Write-Host "$space│         YouTube | Sherm_R6          │" -ForegroundColor $white
+Write-Host "$space│         YouTube | @Sherm_R6         │" -ForegroundColor $white
 Write-Host "$space╰─────────────────────────────────────╯" -ForegroundColor $white
 
 Write-Host "$space╭─────────────────────────────────────╮" -ForegroundColor $white
@@ -31,8 +31,8 @@ Write-Host "`nStarting countdown to open links..."
 
 for ($i = 10; $i -gt 0; $i--) {
     Write-Host "Opening in $i seconds..." -ForegroundColor $yellow
-    Start-Sleep -Seconds 1
-}
+    Start-Sleep -Seconds 2
+    }
 
 Write-Host "`nOpening Social Media Links..."
 Start-Process "https://twitter.com/Sherm_R6"
