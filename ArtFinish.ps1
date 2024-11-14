@@ -1,7 +1,7 @@
 $green = "green"
 $white = "white"
 $yellow = "yellow"
-$space = " " * 12  # Increased the number of spaces for more right alignment
+$space = " " * 12
 
 Write-Host "`n$space╭─────────────────────────────────────╮" -ForegroundColor $green
 Write-Host "$space│            SCAN COMPLETE            │" -ForegroundColor $green
@@ -35,7 +35,6 @@ for ($i = 60; $i -gt 10; $i -= 10) {
     Start-Sleep -Seconds 10
 }
 
-# Switch to counting down by 1-second intervals
 for ($i = 10; $i -gt 0; $i--) {
     Write-Host "Opening in $i seconds..." -ForegroundColor Yellow
     Start-Sleep -Seconds 1
